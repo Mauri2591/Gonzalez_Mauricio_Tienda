@@ -8,6 +8,7 @@ html {
     margin: 0;
     padding: 0;
     }    
+/*Inicio custom properties*/
 :root {
     --fuente: Verdana, Geneva, Tahoma, sans-serif;
     --colorTitulo: #FF5B5B;
@@ -15,6 +16,7 @@ html {
     --colorBody: #ACFE7D;
     --colorBtn: #FFCD00;
 }
+/*Final custom properties*/
 .cuerpo {
     font-family: var(--fuente);
     background-color: var(--colorBody);
@@ -45,6 +47,7 @@ html {
     color: #ff0000;
     background-color: var(--colorBtn);
 }
+/*Inicio media queries*/
 @media (max-width: 500px) {
     .titulo{
         font-size: 4.5rem;
@@ -60,4 +63,4 @@ html {
         width: 500px;
     }
 }
-
+/*Final media queries*/
